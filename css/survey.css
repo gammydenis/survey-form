@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body{
+    background-color: #E8FAD9;
+    font-family: 'Oswald', sans-serif;
+}
+ .border{
+     border: black;
+    border-style: solid;
+    background-color: cornsilk;
+     padding: 50px;
+     margin-top: 40px;
+} 
+.formData{
+    resize: vertical;
+}
+
+.btn{
+padding-left: 200px;
+padding-right: 200px;
+}
+
