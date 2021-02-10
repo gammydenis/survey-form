@@ -1,112 +1,104 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
       <link rel="stylesheet" href="css/survey.css">
-    <title>Survey Form</title>
-  </head>
-
-    
-<body>
-   <br>
-  <div class="text-center" >
-    <h1>Survey Form</h1>
-  </div>
-  <div class=" w-50  mx-auto border">
-    <form class="formData">
-      <div class="form-group">
-        <label  class="form-label " ><p>Full name</p>  </label>
-        <input type="name" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter Your Name">
+      <title>Survey Form</title>
+   </head>
+   <body>
+      <br>
+      <div class="text-center" >
+         <h1>Survey Form</h1>
       </div>
-
-      <div class="mb-3">
-        <label  class="form-label"><p>Email</p></label>
-        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Email" >
-      </div>
-
-      <div class="mb-3">
-        <label  class="form-label" for="number"><p>Age</p></label>
-        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Enter Your Age">
-      </div>
-
-      <div class="mb-3">
-        <p>Which one is your favorite socail media platform?</p>
-        <select id="dropdown" name="food" class="form-control" required/>
-        <option disabled selected value>Select an option</option>
-        <option value="facebook">Facebook</option>
-        <option value="youtube">Youtube</option>
-        <option value="messenger">FB Messenger</option>
-        <option value="twitter">Twitter</option>
-        <option value="skype">Skype</option>
-        <option value="whatsapp">Whatsapp</option>
-        <option value="tiktok">Tiktok</option>
-        </select>
-      </div>
-
-      <div class="mb-3">
-        <p>How many times you open your social media?</p>
-      <label>
-        <input name="user-recommend" value="1-3 times" type="radio" class="input-radio" checked/>1-3 times</label><br>
-      <label>
-        <input name="user-recommend" value="4-6 times" type="radio" class="input-radio"/>4-6 times</label><br>
-      <label>
-        <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>7 times</label> <br> 
-      </div>
-
-      <div class="mb-3">
-        <p>How many social media sites do you have accounts with?</p>
-      <label>
-        <input name="user-recommend" value="1-3 times" type="radio" class="input-radio" checked/>1-3</label><br>
-      <label>
-        <input name="user-recommend" value="4-6 times" type="radio" class="input-radio"/>3-5</label><br>
-      <label>
-        <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>6-8</label>  <br>
-        <label>
-          <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>9-10</label> <br>
-          <label>
-            <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>11+</label> <br>
-      </div>
-
-      <div class="mb-3 ">
-      <p>  what do you use social media for?<span class="clue">(Check all that apply)</span>
-      </p>
-      <label>
-        <input name="prefer" value="twitter" type="checkbox" class="input-checkbox"/>keeping in touch with friends and family</label><br>
-      <label>
-        <input name="prefer" value="facebook" type="checkbox" class="input-checkbox"/>event planning </label><br> 
-      <label>
-        <input name="prefer" value="instagram" type="checkbox" class="input-checkbox"/>buying and selling </label><br>
-      <label>
-        <input name="prefer" value="reddit" type="checkbox" class="input-checkbox"/>inspiration</label><br>
-      <label>
-        <input name="prefer" value="quora" type="checkbox" class="input-checkbox"/>dating </label><br>
-      <label>
-        <input name="prefer" value="tiktok" type="checkbox" class="input-checkbox"/>to meet new friends </label><br>
-      <label>
-        <input name="prefer" value="discord" type="checkbox" class="input-checkbox"/>to find employment</label><br>
-      <label>
-        <input name="prefer" value="discord" type="checkbox" class="input-checkbox"/>to browse/ time waste </label><br>
+      <div class=" w-50  mx-auto border">
+         <form class="formData">
+            <div class="mb-3">
+               <label  class="form-label " >
+                  <p>Full name</p>
+               </label>
+               <input type="name" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter Your Name">
+            </div>
+            <div class="mb-3">
+               <label  class="form-label">
+                  <p>Email</p>
+               </label>
+               <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Email" >
+            </div>
+            <div class="mb-3">
+               <label  class="form-label" for="number">
+                  <p>Age</p>
+               </label>
+               <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Enter Your Age">
+            </div>
+            <div class="mb-3">
+               <p>Which one is your favorite socail media platform?</p>
+               <select id="dropdown" name="food" class="form-control" required/>
+                  <option disabled selected value>Select an option</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="youtube">Youtube</option>
+                  <option value="messenger">FB Messenger</option>
+                  <option value="twitter">Twitter</option>
+                  <option value="skype">Skype</option>
+                  <option value="whatsapp">Whatsapp</option>
+                  <option value="tiktok">Tiktok</option>
+               </select>
+            </div>
+            <div class="mb-3">
+               <p>How many times you open your social media?</p>
+               <label>
+               <input name="user-recommend" value="1-3 times" type="radio" class="input-radio" checked/>1-3 times</label><br>
+               <label>
+               <input name="user-recommend" value="4-6 times" type="radio" class="input-radio"/>4-6 times</label><br>
+               <label>
+               <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>7 times</label> <br> 
+            </div>
+            <div class="mb-3">
+               <p>How many social media sites do you have accounts with?</p>
+               <label>
+               <input name="user-recommend" value="1-3 times" type="radio" class="input-radio" checked/>1-3</label><br>
+               <label>
+               <input name="user-recommend" value="4-6 times" type="radio" class="input-radio"/>3-5</label><br>
+               <label>
+               <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>6-8</label>  <br>
+               <label>
+               <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>9-10</label> <br>
+               <label>
+               <input name="user-recommend" value=">7 times" type="radio" class="input-radio"/>11+</label> <br>
+            </div>
+            <div class="mb-3 ">
+               <p>  what do you use social media for?<span class="clue">(Check all that apply)</span>
+               </p>
+               <label>
+               <input name="prefer" value="twitter" type="checkbox" class="input-checkbox"/>keeping in touch with friends and family</label><br>
+               <label>
+               <input name="prefer" value="facebook" type="checkbox" class="input-checkbox"/>event planning </label><br> 
+               <label>
+               <input name="prefer" value="instagram" type="checkbox" class="input-checkbox"/>buying and selling </label><br>
+               <label>
+               <input name="prefer" value="reddit" type="checkbox" class="input-checkbox"/>inspiration</label><br>
+               <label>
+               <input name="prefer" value="quora" type="checkbox" class="input-checkbox"/>dating </label><br>
+               <label>
+               <input name="prefer" value="tiktok" type="checkbox" class="input-checkbox"/>to meet new friends </label><br>
+               <label>
+               <input name="prefer" value="discord" type="checkbox" class="input-checkbox"/>to find employment</label><br>
+               <label>
+               <input name="prefer" value="discord" type="checkbox" class="input-checkbox"/>to browse/ time waste </label><br>
+            </div>
+            <br>
+            <div class="text-center">
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+         </form>
+         <br>
       </div>
       <br>
-     
-      <div class="text-center">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-    </form>
       <br>
-  </div> 
-  <br>
-  <br>
-
-       
-      </body> 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-   
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+   </body>
 </html>
